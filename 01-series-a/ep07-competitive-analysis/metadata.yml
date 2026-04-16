@@ -1,0 +1,65 @@
+title: "Anthropic Skills: competitive-analysis — Full Competitor Brief in 6 Minutes | Ep 07"
+
+description: |
+  In this episode, we demo the competitive-analysis Anthropic Skill from Smithery.ai —
+  a structured workflow that turns a research brief into a full competitive intelligence
+  document, complete with positioning analysis, pricing comparison, ICP overlap,
+  and a one-page sales battle card.
+
+  We run it for Flowdesk, a fictional async project management startup, benchmarking
+  Asana, Monday.com, and Linear — and come out with two production-ready artifacts
+  in under six minutes.
+
+  TIMESTAMPS:
+  0:00 — Cold Open
+  0:30 — What is competitive-analysis?
+  1:30 — Installation & Deep Dive
+  3:30 — Live Demo: Flowdesk vs. Asana, Monday, Linear
+  9:30 — Results & Other Use Cases
+  11:00 — Wrap-Up
+
+  LINKS:
+  Skill: https://smithery.ai/skills/anthropics/competitive-analysis
+  Install: npx @smithery/cli@latest skill add anthropics/competitive-analysis
+  GitHub (this series): https://github.com/agentfactory/anthropic-skills-showcase
+  Episode 07 folder: https://github.com/agentfactory/anthropic-skills-showcase/tree/main/01-series-a/ep07-competitive-analysis
+
+  NEXT EPISODE:
+  Episode 08: canvas-design — build a museum-quality conference poster from scratch
+
+tags:
+  - anthropic
+  - claude
+  - claude code
+  - ai skills
+  - smithery
+  - competitive analysis
+  - competitive intelligence
+  - sales battle card
+  - market research
+  - ai workflows
+  - claude skills tutorial
+  - product marketing
+  - sales enablement
+  - competitor research
+  - go to market strategy
+
+category: Science & Technology
+
+chapters:
+  - time: "0:00"
+    title: "Cold Open"
+  - time: "0:30"
+    title: "What is competitive-analysis?"
+  - time: "1:30"
+    title: "Installation & Deep Dive"
+  - time: "3:30"
+    title: "Live Demo — Flowdesk vs. Asana, Monday, Linear"
+  - time: "9:30"
+    title: "Results & Other Use Cases"
+  - time: "11:00"
+    title: "Wrap-Up & What's Next"
+
+thumbnail: assets/thumbnail.md
+language: en
+visibility: public

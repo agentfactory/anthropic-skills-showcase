@@ -1,0 +1,36 @@
+Date,Rep Name,Region,Product,Deal Size,Status
+2025-01-06,Sarah Chen,North,Enterprise,85000,Closed Won
+2025-01-09,Marcus Webb,West,Starter,12000,Closed Lost
+2025-01-14,Priya Nair,East,Pro,38000,Closed Won
+2025-01-17,Jordan Ellis,South,Pro,34000,Closed Won
+2025-01-21,Sarah Chen,North,Pro,42000,Closed Won
+2025-01-28,Marcus Webb,West,Pro,36000,Closed Lost
+2025-02-03,Priya Nair,East,Enterprise,92000,Closed Won
+2025-02-06,Jordan Ellis,South,Starter,11000,Closed Won
+2025-02-11,Sarah Chen,North,Enterprise,97000,Closed Won
+2025-02-14,Marcus Webb,West,Starter,9500,Closed Lost
+2025-02-19,Priya Nair,East,Pro,41000,Closed Won
+2025-02-24,Jordan Ellis,South,Enterprise,78000,Closed Won
+2025-02-27,Sarah Chen,North,Pro,45000,Closed Won
+2025-03-04,Marcus Webb,West,Pro,31000,Closed Won
+2025-03-07,Priya Nair,East,Enterprise,105000,Closed Won
+2025-03-12,Jordan Ellis,South,Pro,29000,Closed Lost
+2025-03-17,Sarah Chen,North,Enterprise,88000,Closed Won
+2025-03-21,Marcus Webb,West,Starter,14000,Closed Lost
+2025-03-26,Priya Nair,East,Pro,37000,Closed Won
+2025-04-02,Jordan Ellis,South,Starter,13500,Closed Won
+2025-04-07,Sarah Chen,North,Enterprise,110000,Closed Won
+2025-04-10,Marcus Webb,West,Pro,27000,Pipeline
+2025-04-15,Priya Nair,East,Enterprise,98000,Closed Won
+2025-04-22,Jordan Ellis,South,Pro,44000,Closed Won
+2025-04-28,Sarah Chen,North,Pro,52000,Closed Won
+2025-05-05,Marcus Webb,West,Starter,8500,Closed Lost
+2025-05-09,Priya Nair,East,Enterprise,115000,Closed Won
+2025-05-14,Jordan Ellis,South,Enterprise,82000,Closed Won
+2025-05-20,Sarah Chen,North,Pro,48000,Closed Won
+2025-06-03,Marcus Webb,West,Enterprise,72000,Pipeline
+2025-06-06,Priya Nair,East,Pro,43000,Closed Won
+2025-06-11,Jordan Ellis,South,Starter,15000,Closed Won
+2025-06-17,Sarah Chen,North,Enterprise,125000,Closed Won
+2025-06-23,Marcus Webb,West,Pro,33000,Pipeline
+2025-06-27,Priya Nair,East,Enterprise,108000,Closed Won

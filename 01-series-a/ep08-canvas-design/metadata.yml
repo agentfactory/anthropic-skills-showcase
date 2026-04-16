@@ -1,0 +1,67 @@
+title: "Anthropic Skills: canvas-design — Design a Print-Ready Conference Poster in Claude | Ep 08"
+
+description: |
+  In this episode, we demo the canvas-design Anthropic Skill from Smithery.ai —
+  the skill that teaches Claude to generate fully-rendered, visually designed
+  HTML/CSS artifacts that actually look great.
+
+  We create a museum-quality 18x24 inch conference poster for "Signal 2025 —
+  The Future of AI Infrastructure": bold typographic layout, keynote speaker
+  lineup, venue and date details — output as a self-contained HTML/CSS file
+  ready to send to any print shop. Then we iterate to a second brutalist design
+  direction in under two minutes, with no design tool touched.
+
+  TIMESTAMPS:
+  0:00 — Cold Open
+  0:30 — What is canvas-design?
+  1:30 — Installation & Skill Deep Dive
+  3:30 — Live Demo: Signal 2025 Conference Poster
+  9:30 — Results & Other Use Cases
+  11:00 — Wrap-Up
+
+  LINKS:
+  Skill: https://smithery.ai/skills/anthropics/canvas-design
+  Install: npx @smithery/cli@latest skill add anthropics/canvas-design
+  GitHub (this series): https://github.com/agentfactory/anthropic-skills-showcase
+  Episode 08 folder: https://github.com/agentfactory/anthropic-skills-showcase/tree/main/01-series-a/ep08-canvas-design
+
+tags:
+  - anthropic
+  - claude
+  - claude code
+  - ai design
+  - smithery
+  - canvas-design
+  - ai skills
+  - poster design
+  - html css design
+  - print design
+  - generative design
+  - event design
+  - conference poster
+  - claude skills tutorial
+  - no-code design
+
+category: Science & Technology
+
+chapters:
+  - time: "0:00"
+    title: "Cold Open — the finished poster"
+  - time: "0:30"
+    title: "What is canvas-design?"
+  - time: "1:30"
+    title: "Installation & Skill Deep Dive"
+  - time: "3:30"
+    title: "Live Demo — Signal 2025 Conference Poster"
+  - time: "5:30"
+    title: "The Aha Moment — First Render"
+  - time: "7:15"
+    title: "Iterating to a Brutalist Style"
+  - time: "9:30"
+    title: "Results & Other Use Cases"
+  - time: "11:00"
+    title: "Wrap-Up & What's Next"
+
+thumbnail: assets/thumbnail.md
+language: en
+visibility: public

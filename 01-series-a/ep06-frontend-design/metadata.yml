@@ -1,0 +1,62 @@
+title: "Anthropic Skills: frontend-design — Build a SaaS Landing Page from One Prompt | Ep 06"
+
+description: |
+  In this episode, we demo the frontend-design Anthropic Skill from Smithery.ai —
+  a skill that turns plain-English briefs into complete, production-ready web pages
+  with zero build steps and zero framework dependencies.
+
+  We build a full SaaS landing page for fictional AI writing tool "Draftly" — hero,
+  features grid, pricing table, testimonials, and CTA — all from a single paragraph
+  brief. The output is one self-contained HTML/CSS/JS file that works in any browser,
+  on any static host, immediately.
+
+  TIMESTAMPS:
+  0:00 — Cold Open
+  0:30 — What is frontend-design?
+  1:30 — Installation & Skill Deep Dive
+  3:30 — Live Demo: Building the Draftly Landing Page
+  9:30 — Results & Other Use Cases
+  11:00 — Wrap-Up
+
+  LINKS:
+  Skill: https://smithery.ai/skills/anthropics/frontend-design
+  Install: npx @smithery/cli@latest skill add anthropics/frontend-design
+  GitHub (this series): https://github.com/agentfactory/anthropic-skills-showcase
+  Episode 06 folder: https://github.com/agentfactory/anthropic-skills-showcase/tree/main/01-series-a/ep06-frontend-design
+
+tags:
+  - anthropic
+  - claude
+  - claude code
+  - ai skills
+  - smithery
+  - frontend-design
+  - landing page builder
+  - ai web design
+  - saas landing page
+  - html css javascript
+  - no code
+  - web design tutorial
+  - claude skills tutorial
+  - ai frontend
+  - responsive design
+
+category: Science & Technology
+
+chapters:
+  - time: "0:00"
+    title: "Cold Open"
+  - time: "0:30"
+    title: "What is frontend-design?"
+  - time: "1:30"
+    title: "Installation & Skill Deep Dive"
+  - time: "3:30"
+    title: "Live Demo — Build the Draftly Landing Page"
+  - time: "9:30"
+    title: "Results & Other Use Cases"
+  - time: "11:00"
+    title: "Wrap-Up & What's Next"
+
+thumbnail: assets/thumbnail.md
+language: en
+visibility: public

@@ -1,0 +1,64 @@
+title: "Anthropic Skills: xlsx — Turn Any Messy CSV Into a Clean Excel Workbook | Ep 05"
+
+description: |
+  In this episode, we demo the xlsx Anthropic Skill from Smithery.ai —
+  the skill that takes raw, messy CSV data and produces a clean, calculated,
+  charted .xlsx workbook, driven entirely by plain English prompts.
+
+  We take a messy sales export from fictional company NorthBridge Tech —
+  inconsistent date formats, duplicate rows, missing values, mixed currency
+  symbols, inconsistent rep names — and turn it into a presentation-ready
+  Excel file with cleaned data, calculated margin and growth columns, a
+  summary pivot table, a revenue bar chart, and conditional formatting.
+  All in under five minutes.
+
+  TIMESTAMPS:
+  0:00 — Cold Open
+  0:30 — What is the xlsx skill?
+  1:30 — Installation & Deep Dive
+  3:30 — Live Demo: Clean a messy sales CSV
+  9:30 — Results & Other Use Cases
+  11:00 — Wrap-Up
+
+  LINKS:
+  Skill: https://smithery.ai/skills/anthropics/xlsx
+  Install: npx @smithery/cli@latest skill add anthropics/xlsx
+  GitHub (this series): https://github.com/agentfactory/anthropic-skills-showcase
+  Episode 05 folder: https://github.com/agentfactory/anthropic-skills-showcase/tree/main/01-series-a/ep05-xlsx
+
+tags:
+  - anthropic
+  - claude
+  - claude code
+  - ai skills
+  - smithery
+  - xlsx
+  - excel automation
+  - csv to excel
+  - spreadsheet automation
+  - data cleaning
+  - ai spreadsheets
+  - claude skills tutorial
+  - data analyst tools
+  - excel tutorial
+  - productivity
+
+category: Science & Technology
+
+chapters:
+  - time: "0:00"
+    title: "Cold Open"
+  - time: "0:30"
+    title: "What is the xlsx skill?"
+  - time: "1:30"
+    title: "Installation & Deep Dive"
+  - time: "3:30"
+    title: "Live Demo — Clean a Messy Sales CSV"
+  - time: "9:30"
+    title: "Results & Other Use Cases"
+  - time: "11:00"
+    title: "Wrap-Up & What's Next"
+
+thumbnail: assets/thumbnail.md
+language: en
+visibility: public

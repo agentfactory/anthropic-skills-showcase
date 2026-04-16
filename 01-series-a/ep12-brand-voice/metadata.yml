@@ -1,0 +1,64 @@
+title: "Anthropic Skills: brand-voice — Reverse-Engineer Your Brand Voice in Minutes | Ep 12"
+
+description: |
+  In this episode, we demo the brand-voice Anthropic Skill from Smithery.ai —
+  the skill that analyzes copy samples and produces a complete, structured brand voice guide.
+
+  We feed 5 pieces of copy from a fictional fintech startup called Luma (expense management
+  for remote teams) into the skill and watch it reverse-engineer a full brand voice document:
+  personality pillars, tone descriptors, vocabulary lists, do/don't examples, and a
+  scoring rubric — from just five examples.
+
+  Then we refine it by asking the skill to split "how we sound on social" from
+  "how we sound in error states" — and see how those two contexts demand different registers.
+
+  TIMESTAMPS:
+  0:00 — Cold Open
+  0:30 — What is brand-voice?
+  1:30 — Installation & Deep Dive
+  3:30 — Live Demo: Reverse-engineer Luma's brand voice
+  9:30 — Results & Other Use Cases
+  11:00 — Wrap-Up & Next Episode
+
+  LINKS:
+  Skill: https://smithery.ai/skills/anthropics/brand-voice
+  Install: npx @smithery/cli@latest skill add anthropics/brand-voice
+  GitHub (this series): https://github.com/agentfactory/anthropic-skills-showcase
+  Episode 12 folder: https://github.com/agentfactory/anthropic-skills-showcase/tree/main/01-series-a/ep12-brand-voice
+
+tags:
+  - anthropic
+  - claude
+  - claude code
+  - ai skills
+  - smithery
+  - brand-voice
+  - brand voice guide
+  - brand strategy
+  - tone of voice
+  - content strategy
+  - ai branding
+  - copywriting
+  - brand identity
+  - marketing ai
+  - ai writing tools
+
+category: Science & Technology
+
+chapters:
+  - time: "0:00"
+    title: "Cold Open"
+  - time: "0:30"
+    title: "What is brand-voice?"
+  - time: "1:30"
+    title: "Installation & Deep Dive"
+  - time: "3:30"
+    title: "Live Demo — Reverse-engineer Luma's brand voice"
+  - time: "9:30"
+    title: "Results & Other Use Cases"
+  - time: "11:00"
+    title: "Wrap-Up & Next Episode"
+
+thumbnail: assets/thumbnail.md
+language: en
+visibility: public

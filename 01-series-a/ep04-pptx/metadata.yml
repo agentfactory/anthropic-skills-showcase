@@ -1,0 +1,64 @@
+title: "Anthropic Skills: pptx — Turn a Product Brief Into an Investor Deck in 6 Minutes | Ep 04"
+
+description: |
+  In this episode, we demo the pptx Anthropic Skill from Smithery.ai —
+  the skill that generates real, editable .pptx files from plain text.
+
+  We take a 400-word product brief for a fictional SaaS startup (Stackline)
+  and turn it into a polished 10-slide investor deck — title, problem,
+  solution, market size, product, traction, team, roadmap, financials, and
+  CTA — with a consistent dark theme and orange accents. No PowerPoint open,
+  no templates, no manual formatting.
+
+  Then we iterate: change the color theme from orange to blue in one prompt.
+
+  TIMESTAMPS:
+  0:00 — Cold Open
+  0:30 — What is the pptx skill?
+  1:30 — Installation & Deep Dive
+  3:30 — Live Demo: Stackline investor deck start to finish
+  9:30 — Results & Other Use Cases
+  11:00 — Wrap-Up
+
+  LINKS:
+  Skill: https://smithery.ai/skills/anthropics/pptx
+  Install: npx @smithery/cli@latest skill add anthropics/pptx
+  GitHub (this series): https://github.com/agentfactory/anthropic-skills-showcase
+  Episode 04 folder: https://github.com/agentfactory/anthropic-skills-showcase/tree/main/01-series-a/ep04-pptx
+
+tags:
+  - anthropic
+  - claude
+  - claude code
+  - ai skills
+  - smithery
+  - pptx
+  - powerpoint automation
+  - investor deck
+  - pitch deck ai
+  - ai slide deck
+  - presentation generator
+  - claude skills tutorial
+  - ai workflows
+  - startup tools
+  - founder tools
+
+category: Science & Technology
+
+chapters:
+  - time: "0:00"
+    title: "Cold Open"
+  - time: "0:30"
+    title: "What is the pptx skill?"
+  - time: "1:30"
+    title: "Installation & Deep Dive"
+  - time: "3:30"
+    title: "Live Demo — Stackline Investor Deck"
+  - time: "9:30"
+    title: "Results & Other Use Cases"
+  - time: "11:00"
+    title: "Wrap-Up & What's Next"
+
+thumbnail: assets/thumbnail.md
+language: en
+visibility: public

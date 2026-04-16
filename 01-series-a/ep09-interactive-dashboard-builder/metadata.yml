@@ -1,0 +1,88 @@
+title: "Build an Interactive Sales Dashboard from a CSV in 45 Seconds (No BI Tool Required)"
+
+description: |
+  In this episode of the Anthropic Skills Showcase, we install the interactive-dashboard-builder skill and turn a raw quarterly sales CSV into a fully interactive HTML dashboard — with live charts, filterable dropdowns, KPI cards, and a date range picker — in a single Claude Code session.
+
+  No Tableau. No Python. No JavaScript. Just a CSV and a prompt.
+
+  Install the skill:
+  npx @smithery/cli@latest skill add anthropics/interactive-dashboard-builder
+
+  Skill page: https://smithery.ai/skills/anthropics/interactive-dashboard-builder
+  GitHub (all episode files): https://github.com/agentfactory/anthropic-skills-showcase
+
+  ---
+
+  TIMESTAMPS
+  0:00 - Cold Open (live dashboard reveal)
+  0:30 - What is interactive-dashboard-builder?
+  1:30 - Install command + SKILL.md walkthrough
+  3:30 - Live Demo: building the Vantage Analytics dashboard
+  5:15 - Aha moment: browser opens, interactive dashboard loads
+  6:30 - Drilling into filters: region, rep, product
+  7:30 - Refinement: adding a date range picker
+  9:30 - Results + 3 other use cases (marketing, support, finance)
+  11:00 - Wrap-up + CTA + Episode 10 tease
+
+  ---
+
+  WHAT YOU'LL LEARN
+  - How to install Smithery skills with one command
+  - How to prompt for specific KPI cards, chart types, and filter dimensions
+  - How to refine your dashboard output with natural-language follow-up prompts
+  - 3 other data domains where this skill saves hours of manual work
+
+  ---
+
+  SERIES C — Data & Analytics | Anthropic Skills Showcase
+
+tags:
+  - Claude AI
+  - Anthropic
+  - Claude Code
+  - AI dashboard builder
+  - interactive dashboard
+  - CSV to dashboard
+  - data visualization AI
+  - Smithery skills
+  - no code dashboard
+  - AI data analytics
+  - Chart.js dashboard
+  - sales dashboard
+  - business intelligence alternative
+  - Claude skills tutorial
+  - AI for data analysts
+  - sales reporting automation
+  - HTML dashboard generator
+  - AI for business analysts
+  - Anthropic skills showcase
+  - interactive-dashboard-builder
+
+chapters:
+  - time: "0:00"
+    title: "Cold Open — Live Dashboard Reveal"
+  - time: "0:30"
+    title: "What Is interactive-dashboard-builder?"
+  - time: "1:30"
+    title: "Install Command + SKILL.md Walkthrough"
+  - time: "3:30"
+    title: "Live Demo Starts — Vantage Analytics CSV"
+  - time: "5:15"
+    title: "Aha Moment — Interactive Dashboard Loads"
+  - time: "6:30"
+    title: "Filtering by Region, Rep, and Product"
+  - time: "7:30"
+    title: "Refinement — Adding a Date Range Picker"
+  - time: "9:30"
+    title: "Results + 3 Variation Use Cases"
+  - time: "11:00"
+    title: "Wrap-Up, CTA, and Episode 10 Tease"
+
+category: "Science & Technology"
+language: "en"
+visibility: "public"
+playlist: "Anthropic Skills Showcase — Series C: Data & Analytics"
+
+thumbnail_text_primary: "CSV → Live Dashboard"
+thumbnail_text_secondary: "in 45 seconds"
+thumbnail_episode_badge: "EP 09"

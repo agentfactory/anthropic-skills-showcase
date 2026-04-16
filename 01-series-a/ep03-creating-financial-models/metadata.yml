@@ -1,0 +1,76 @@
+title: "Anthropic Skills: creating-financial-models — Build a Full DCF Model from One Paragraph | Ep 03"
+
+description: |
+  In this episode, we demo the creating-financial-models Anthropic Skill from Smithery.ai —
+  a skill that lets Claude build complete, structured financial models from plain English
+  business descriptions.
+
+  We walk through a complete use case: starting from a single one-paragraph brief for
+  "Loopline" — a fictional B2B SaaS startup — we produce a full DCF (Discounted Cash Flow)
+  model including 5-year revenue projections, operating cost structure, WACC calculation with
+  all assumptions documented, terminal value using two methods, and a final enterprise value
+  range. Then we run a conservative scenario in under 30 seconds.
+
+  This skill is perfect for founders prepping for fundraising, analysts building board decks,
+  and finance leaders who need a rigorous first draft fast.
+
+  TIMESTAMPS:
+  0:00 — Cold Open
+  0:30 — What is creating-financial-models?
+  1:30 — Installation & Deep Dive
+  3:30 — Live Demo: DCF Model for Loopline (SaaS startup)
+  9:30 — Results & Other Use Cases
+  11:00 — Wrap-Up
+
+  LINKS:
+  Skill: https://smithery.ai/skills/anthropics/creating-financial-models
+  Install: npx @smithery/cli@latest skill add anthropics/creating-financial-models
+  GitHub: https://github.com/agentfactory/anthropic-skills-showcase
+
+tags:
+  - anthropic
+  - claude
+  - claude code
+  - ai skills
+  - smithery
+  - financial modeling
+  - dcf model
+  - discounted cash flow
+  - saas finance
+  - startup finance
+  - financial projections
+  - wacc
+  - ai for finance
+  - financial analysis
+  - cfo tools
+  - fundraising
+  - pitch deck finance
+  - anthropic skills showcase
+
+category: Science & Technology
+
+chapters:
+  - time: "0:00"
+    title: "Cold Open — DCF model in 3 minutes"
+  - time: "0:30"
+    title: "What is creating-financial-models?"
+  - time: "1:30"
+    title: "Installation & Skill Deep Dive"
+  - time: "3:30"
+    title: "Live Demo — DCF for Loopline (SaaS startup)"
+  - time: "4:30"
+    title: "Invoking the Skill"
+  - time: "5:30"
+    title: "Watching the Model Build"
+  - time: "7:00"
+    title: "Reviewing the Output"
+  - time: "8:00"
+    title: "Iteration — Conservative Scenario"
+  - time: "9:30"
+    title: "Results & Other Use Cases"
+  - time: "11:00"
+    title: "Wrap-Up & Next Episode"
+
+thumbnail: assets/thumbnail.md
+language: en
+visibility: public
