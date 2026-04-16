@@ -1,0 +1,84 @@
+title: "Anthropic Skills: internal-comms — One Update, Three Audiences | Ep B06"
+
+description: |
+  In this episode, we demo the internal-comms Anthropic Skill from Smithery.ai.
+
+  Denis starts with a single product update brief — 8 bullet points about a pricing change
+  and feature launch at a fictional company. One prompt later, the internal-comms skill
+  produces THREE distinct communications:
+
+  1. A 400-word all-hands memo for leadership (strategic framing, business impact)
+  2. A 180-word Slack announcement for engineering (technical, direct, action-oriented)
+  3. A 400-word email for customer-facing teams (empathetic, focused on customer experience)
+
+  Same facts. Completely different tone. That's the aha moment.
+
+  We then show the tone contrast side by side — the same fact expressed three ways for three
+  audiences — and do a quick iteration to add an operational detail to the Slack post.
+
+  This is the last episode of Series B (Documents & Files). Series C (Data & Analytics)
+  starts with the data-visualization skill — coming next.
+
+  TIMESTAMPS:
+  0:00 — Cold Open
+  0:30 — What is internal-comms?
+  1:30 — Installation & Deep Dive
+  3:30 — Live Demo: Pricing Update Brief
+  7:30 — Tone Contrast: Same Fact, Three Ways
+  8:30 — Quick Iteration Pass
+  9:30 — Results & Other Use Cases
+  11:00 — Series B Wrap-Up & Series C Preview
+
+  LINKS:
+  Skill: https://smithery.ai/skills/anthropics/internal-comms
+  Install: npx @smithery/cli@latest skill add anthropics/internal-comms
+  GitHub: https://github.com/agentfactory/anthropic-skills-showcase
+
+  SERIES PLAYLIST:
+  Series A (Design & Creative): [playlist link]
+  Series B (Documents & Files): [playlist link]
+  Series C (Data & Analytics): [playlist link — add when available]
+
+tags:
+  - anthropic
+  - claude
+  - claude code
+  - ai skills
+  - smithery
+  - internal communications
+  - comms
+  - product management
+  - team communication
+  - writing for different audiences
+  - business writing
+  - stakeholder communication
+  - slack
+  - memo writing
+  - ai writing assistant
+  - productivity
+
+category: Science & Technology
+
+chapters:
+  - time: "0:00"
+    title: "Cold Open"
+  - time: "0:30"
+    title: "What is internal-comms?"
+  - time: "1:30"
+    title: "Installation & Deep Dive"
+  - time: "3:30"
+    title: "Live Demo — Pricing Update Brief"
+  - time: "5:30"
+    title: "Three Outputs Generate"
+  - time: "7:30"
+    title: "Tone Contrast: Same Fact, Three Ways"
+  - time: "8:30"
+    title: "Quick Iteration Pass"
+  - time: "9:30"
+    title: "Results & Other Use Cases"
+  - time: "11:00"
+    title: "Series B Wrap-Up & Series C Preview"
+
+thumbnail: assets/thumbnail.md
+language: en
+visibility: public

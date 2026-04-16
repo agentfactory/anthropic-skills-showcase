@@ -1,0 +1,75 @@
+title: "Anthropic Skills: doc-coauthoring — From Rough Notes to a Real Spec | Ep B05"
+
+description: |
+  In this episode, we demo the doc-coauthoring Anthropic Skill from Smithery.ai.
+
+  Denis starts with a messy markdown file — scattered bullet points, half-formed requirements,
+  and a partial JSON schema for a new Webhook Events API. The doc-coauthoring skill co-writes
+  it into a complete technical specification: overview, functional and non-functional requirements,
+  API schema, error handling, and an open questions section.
+
+  Then we iterate. Denis asks to "tighten the requirements section" — the skill revises with
+  precise, testable behavioral statements. He adds a Security Considerations appendix that
+  wasn't in the original notes. The skill slots it in with cross-references to existing sections.
+
+  The result: a spec document that reads like it was written by someone who cared.
+
+  TIMESTAMPS:
+  0:00 — Cold Open
+  0:30 — What is doc-coauthoring?
+  1:30 — Installation & Deep Dive
+  3:30 — Live Demo: Webhook Events API Spec
+  9:30 — Results & Other Use Cases
+  11:00 — Wrap-Up
+
+  LINKS:
+  Skill: https://smithery.ai/skills/anthropics/doc-coauthoring
+  Install: npx @smithery/cli@latest skill add anthropics/doc-coauthoring
+  GitHub: https://github.com/agentfactory/anthropic-skills-showcase
+
+  SERIES PLAYLIST:
+  Series A (Design & Creative): [playlist link]
+  Series B (Documents & Files): [playlist link]
+
+tags:
+  - anthropic
+  - claude
+  - claude code
+  - ai skills
+  - smithery
+  - technical writing
+  - api spec
+  - documentation
+  - spec writing
+  - product management
+  - engineering productivity
+  - technical specification
+  - webhook api
+  - doc coauthoring
+  - ai writing assistant
+
+category: Science & Technology
+
+chapters:
+  - time: "0:00"
+    title: "Cold Open"
+  - time: "0:30"
+    title: "What is doc-coauthoring?"
+  - time: "1:30"
+    title: "Installation & Deep Dive"
+  - time: "3:30"
+    title: "Live Demo — Webhook Events API Spec"
+  - time: "7:00"
+    title: "Reviewing the Output"
+  - time: "8:00"
+    title: "Iteration: Tightening Requirements"
+  - time: "8:45"
+    title: "Iteration: Adding Security Appendix"
+  - time: "9:30"
+    title: "Results & Other Use Cases"
+  - time: "11:00"
+    title: "Wrap-Up & What's Next"
+
+thumbnail: assets/thumbnail.md
+language: en
+visibility: public

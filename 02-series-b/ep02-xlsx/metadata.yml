@@ -1,0 +1,64 @@
+title: "Anthropic Skills: xlsx — Build an Expense Tracker from Scratch | Ep B02"
+description: |
+  In this episode, we demo the xlsx Anthropic Skill from Smithery.ai — but differently
+  from Series A. This isn't about cleaning messy data. It's about building a complete,
+  finance-ready Excel workbook from a plain text list of expenses.
+
+  We walk through: taking 28 raw expense line items from a notes file and generating
+  a formatted Excel workbook with a typed expense table, conditional formatting for
+  over-budget rows, a Summary sheet with SUMIF formulas, and a pie chart of spending
+  by category — all from one prompt.
+
+  NOTE: Series A Ep05 covered xlsx for cleaning messy CSVs. This episode is the
+  build-from-scratch companion — a different problem, same skill.
+
+  TIMESTAMPS:
+  0:00 — Cold Open
+  0:30 — What is xlsx? (Build Mode vs. Clean Mode)
+  1:30 — Installation & Deep Dive
+  3:30 — Live Demo: April Expense Tracker
+  9:30 — Results & Other Use Cases
+  11:00 — Wrap-Up
+
+  LINKS:
+  Skill: https://smithery.ai/skills/anthropics/xlsx
+  Install: npx @smithery/cli@latest skill add anthropics/xlsx
+  Series A Ep05 (xlsx clean mode): https://youtube.com/...
+  GitHub: https://github.com/agentfactory/anthropic-skills-showcase
+
+tags:
+  - anthropic
+  - claude
+  - claude code
+  - ai skills
+  - smithery
+  - xlsx
+  - excel
+  - excel automation
+  - expense tracker
+  - spreadsheet generation
+  - ai spreadsheet
+  - excel formulas
+  - conditional formatting
+  - openpyxl
+  - business productivity
+
+category: Science & Technology
+
+chapters:
+  - time: "0:00"
+    title: "Cold Open"
+  - time: "0:30"
+    title: "What is xlsx? (Build Mode vs. Clean Mode)"
+  - time: "1:30"
+    title: "Installation & Deep Dive"
+  - time: "3:30"
+    title: "Live Demo — April Expense Tracker"
+  - time: "9:30"
+    title: "Results & Other Use Cases"
+  - time: "11:00"
+    title: "Wrap-Up & What's Next"
+
+thumbnail: assets/thumbnail.md
+language: en
+visibility: public
