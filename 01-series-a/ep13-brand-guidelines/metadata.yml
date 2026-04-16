@@ -1,0 +1,62 @@
+title: "Anthropic Skills: brand-guidelines — Full Visual Identity from 3 Sentences | Ep 13"
+
+description: |
+  In this episode, we demo the brand-guidelines Anthropic Skill from Smithery.ai —
+  the skill that takes a minimal brand brief and generates a complete visual identity
+  system: color palette, typography pairing, spacing scale, logo rules, do/don't
+  examples, and application mockup specs.
+
+  We build a full brand guidelines document for Canopy, a fictional B2B climate-tech
+  startup — starting from nothing but a logo description, three brand adjectives, and
+  a single sentence about brand feel. Then we iterate to add a dark mode palette variant.
+
+  TIMESTAMPS:
+  0:00 — Cold Open
+  0:30 — What is brand-guidelines?
+  1:30 — Installation & Skill Deep Dive
+  3:30 — Live Demo: Canopy brand guidelines start to finish
+  9:30 — Results & Other Use Cases
+  11:00 — Wrap-Up
+
+  LINKS:
+  Skill: https://smithery.ai/skills/anthropics/brand-guidelines
+  Install: npx @smithery/cli@latest skill add anthropics/brand-guidelines
+  GitHub (this series): https://github.com/agentfactory/anthropic-skills-showcase
+  Episode 13 folder: https://github.com/agentfactory/anthropic-skills-showcase/tree/main/01-series-a/ep13-brand-guidelines
+
+tags:
+  - anthropic
+  - claude
+  - claude code
+  - ai skills
+  - smithery
+  - brand guidelines
+  - visual identity
+  - brand design
+  - color palette
+  - typography
+  - ai branding
+  - brand system
+  - startup branding
+  - design systems
+  - claude skills tutorial
+
+category: Science & Technology
+
+chapters:
+  - time: "0:00"
+    title: "Cold Open"
+  - time: "0:30"
+    title: "What is brand-guidelines?"
+  - time: "1:30"
+    title: "Installation & Skill Deep Dive"
+  - time: "3:30"
+    title: "Live Demo — Canopy Brand Guidelines"
+  - time: "9:30"
+    title: "Results & Other Use Cases"
+  - time: "11:00"
+    title: "Wrap-Up & What's Next"
+
+thumbnail: assets/thumbnail.md
+language: en
+visibility: public

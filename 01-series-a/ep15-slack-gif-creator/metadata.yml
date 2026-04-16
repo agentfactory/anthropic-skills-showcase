@@ -1,0 +1,132 @@
+title: "Make Custom Slack GIFs with AI — Series A Finale (Ep 15)"
+
+description: |
+  Build 3 custom animated GIFs for your Slack workspace using the slack-gif-creator skill — no Photoshop, no After Effects, no designer needed. One install command, plain English descriptions, Slack-ready output. This is Episode 15 and the Series A finale of the Anthropic Skills Showcase.
+
+  In this episode:
+  - Deploy Party: confetti explosion with "SHIPPED" text reveal
+  - PR Review: side-eye blinking animation with amber tones
+  - Meeting Alert: pulsing calendar icon with spinning clock hands
+
+  All 3 GIFs are 128×128px, looping, and under 2MB — Slack spec compliant.
+
+  ──────────────────────────────────
+  TIMESTAMPS
+  ──────────────────────────────────
+  0:00 — Cold open: all 3 GIFs live in Slack
+  0:30 — What slack-gif-creator does and who it's for
+  1:30 — Install command + SKILL.md walkthrough
+  3:30 — Live demo starts: building all 3 GIFs
+  4:15 — GIF 1: Deploy Party (confetti + "SHIPPED")
+  5:30 — GIF 2: PR Review (side-eye blinking)
+  6:20 — Refinement: extending the side-eye hold
+  7:10 — GIF 3: Meeting Alert (pulsing calendar)
+  8:00 — File size check — all pass Slack's 2MB limit
+  8:30 — Uploading to Slack custom emoji
+  9:00 — First use in a real Slack channel
+  9:30 — Results + 3 more use cases
+  11:00 — Series A wrap-up + Series B teaser
+  11:30 — CTA: subscribe + skill link + GitHub
+
+  ──────────────────────────────────
+  INSTALL THE SKILL
+  ──────────────────────────────────
+  npx @smithery/cli@latest skill add anthropics/slack-gif-creator
+
+  Skill page: https://smithery.ai/skills/anthropics/slack-gif-creator
+
+  ──────────────────────────────────
+  RESOURCES
+  ──────────────────────────────────
+  GitHub repo: https://github.com/agentfactory/anthropic-skills-showcase
+  Episode brief + input files: /01-series-a/ep15-slack-gif-creator/
+
+  ──────────────────────────────────
+  SERIES A — DESIGN & CREATIVE (Complete)
+  ──────────────────────────────────
+  Ep 08 — canvas-design
+  Ep 09 — interactive-dashboard-builder
+  Ep 10 — theme-factory
+  Ep 11 — applying-brand-guidelines
+  Ep 12 — brand-voice
+  Ep 13 — brand-guidelines
+  Ep 14 — algorithmic-art
+  Ep 15 — slack-gif-creator (this video)
+
+  ──────────────────────────────────
+  NEXT: SERIES B — DOCUMENTS
+  ──────────────────────────────────
+  Episode 16: docx — rough draft to polished Word document with styles, headers, and a table of contents
+
+  ──────────────────────────────────
+  ABOUT THIS CHANNEL
+  ──────────────────────────────────
+  Anthropic Skills Showcase is a YouTube series demonstrating every skill available on Smithery.ai. One episode per skill. Twelve minutes. One complete use case, start to finish.
+
+  Subscribe: https://youtube.com/@agentfactory
+
+tags:
+  - slack gif creator
+  - custom slack emoji
+  - animated gif for slack
+  - anthropic skills
+  - smithery ai
+  - claude code
+  - ai gif generator
+  - slack custom reactions
+  - remote team tools
+  - slack workspace customization
+  - ai design tools
+  - no code design
+  - slack emoji
+  - anthropic skills showcase
+  - series finale
+  - series A
+  - design and creative
+  - series B teaser
+  - html canvas animation
+  - gif creator ai
+  - slack tips
+  - remote work tools
+  - team communication
+  - deploy reaction
+  - code review slack
+
+chapters:
+  - time: "0:00"
+    title: "Cold open — all 3 GIFs live in Slack"
+  - time: "0:30"
+    title: "Intro — what slack-gif-creator does"
+  - time: "1:30"
+    title: "Install command + SKILL.md walkthrough"
+  - time: "3:30"
+    title: "Live demo begins"
+  - time: "4:15"
+    title: "GIF 1 — Deploy Party"
+  - time: "5:30"
+    title: "GIF 2 — PR Review (side-eye)"
+  - time: "6:20"
+    title: "Refinement — extending the hold"
+  - time: "7:10"
+    title: "GIF 3 — Meeting Alert"
+  - time: "8:00"
+    title: "Slack spec check — file sizes"
+  - time: "8:30"
+    title: "Uploading to Slack emoji library"
+  - time: "9:00"
+    title: "First use in a real channel"
+  - time: "9:30"
+    title: "Results + 3 more use cases"
+  - time: "11:00"
+    title: "Series A wrap-up"
+  - time: "11:30"
+    title: "Series B teaser + CTA"
+
+category: "Science & Technology"
+language: "en"
+visibility: "public"
+made_for_kids: false
+playlist: "Series A — Design & Creative"
+
+thumbnail_file: "assets/thumbnail.png"
+thumbnail_brief: "assets/thumbnail.md"

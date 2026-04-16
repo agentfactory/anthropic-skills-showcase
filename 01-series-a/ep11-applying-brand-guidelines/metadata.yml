@@ -1,0 +1,103 @@
+title: "Apply Brand Guidelines to Any Copy — In One Prompt (Anthropic Skill #11)"
+
+description: |
+  Three writers. Three completely different tones. One brand voice guide — and one Claude skill that brings them all into alignment in a single pass.
+
+  In this episode we install the applying-brand-guidelines skill from Smithery and use it to rewrite a too-formal blog intro, a hype-y social post, and a generic product headline — all at once — so they all sound like the same brand.
+
+  The skill checks tone, vocabulary rules, punctuation conventions, and personality pillars. It returns the rewritten copy AND change annotations explaining every edit — so it teaches writers as it fixes their work.
+
+  Install command:
+  npx @smithery/cli@latest skill add anthropics/applying-brand-guidelines
+
+  Skill page: https://smithery.ai/skills/anthropics/applying-brand-guidelines
+  GitHub (demo files): https://github.com/agentfactory/anthropic-skills-showcase
+
+  ──────────────────────────────────
+  TIMESTAMPS
+  ──────────────────────────────────
+  0:00 — Cold Open: three inconsistent pieces, one skill
+  0:30 — What is applying-brand-guidelines?
+  1:30 — Install + SKILL.md walkthrough
+  3:30 — Live Demo starts: the Verdant brand guide
+  4:30 — Building the prompt
+  5:30 — Watching the rewrite happen
+  7:00 — Reading the change annotations
+  8:00 — Iteration: tightening the social post
+  9:00 — Final polished output
+  9:30 — Results + 3 other use cases
+  11:00 — Wrap-up + install link + next episode
+
+  ──────────────────────────────────
+  WHAT YOU'LL LEARN
+  ──────────────────────────────────
+  • How applying-brand-guidelines works under the hood
+  • The exact prompt structure that triggers the skill
+  • How to read and use the change annotations for team training
+  • 3 other use cases: contractor onboarding, localisation review, email subject line filtering
+
+  ──────────────────────────────────
+  SERIES A — DESIGN & CREATIVE
+  ──────────────────────────────────
+  This is Episode 11 of the Anthropic Skills Showcase. Every week we take one skill from the Anthropic directory on Smithery and show you exactly what it does — install, demo, real output.
+
+  Subscribe so you don't miss Episode 12: brand-voice — where we build a complete brand voice document from scratch using only example copy samples.
+
+tags:
+  - anthropic
+  - claude
+  - ai tools
+  - brand guidelines
+  - brand voice
+  - content marketing
+  - copywriting
+  - AI copywriting
+  - brand consistency
+  - content strategy
+  - marketing tools
+  - smithery
+  - claude skills
+  - anthropic skills
+  - AI for marketers
+  - brand management
+  - copy editing
+  - DTC marketing
+  - content team tools
+  - AI writing tools
+  - tone of voice
+  - brand identity
+  - marketing automation
+  - content operations
+  - anthropic skills showcase
+
+chapters:
+  - time: "0:00"
+    title: "Cold Open — before and after"
+  - time: "0:30"
+    title: "What is applying-brand-guidelines?"
+  - time: "1:30"
+    title: "Install command + SKILL.md walkthrough"
+  - time: "3:30"
+    title: "Live Demo — the Verdant brand guide"
+  - time: "4:30"
+    title: "Building the prompt"
+  - time: "5:30"
+    title: "Watching the rewrite happen"
+  - time: "7:00"
+    title: "Change annotations — teaching the writer"
+  - time: "8:00"
+    title: "Iteration — tightening the social post"
+  - time: "9:00"
+    title: "Final polished output"
+  - time: "9:30"
+    title: "Results + 3 other use cases"
+  - time: "11:00"
+    title: "Wrap-up + install link"
+
+category: "Science & Technology"
+language: "en"
+visibility: "public"
+playlist: "Anthropic Skills Showcase — Series A: Design & Creative"
+episode_number: 11
+series: "A"
+thumbnail: "assets/thumbnail-ep11.png"
