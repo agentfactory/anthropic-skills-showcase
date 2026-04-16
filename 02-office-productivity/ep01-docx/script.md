@@ -1,6 +1,6 @@
 # Episode B01: docx — From Markdown Mess to Polished Word Report
 
-**Series:** B — Documents & Files
+**Series:** B — Office & Productivity | **Folder:** `02-office-productivity/`
 **Skill:** `anthropics/docx`
 **Skill URL:** https://smithery.ai/skills/anthropics/docx
 **Installs:** 623

@@ -1,5 +1,5 @@
 /**
- * ElevenLabs voiceover generator for Episode 01.
+ * ElevenLabs voiceover generator for Episode C01.
  *
  * Reads ../script.md, splits the narration at "## SECTION [timestamp]" headers,
  * strips visual cues ([SCREEN: …], [B-ROLL: …], [ANIMATION: …]) and stage
@@ -16,9 +16,18 @@
  */
 
 import { ElevenLabsClient } from "@elevenlabs/elevenlabs-js";
-import { readFileSync, writeFileSync, mkdirSync } from "node:fs";
+import { readFileSync, writeFileSync, mkdirSync, existsSync } from "node:fs";
 import { dirname, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
+
+// Auto-load .env from the same directory as this script
+const envPath = resolve(dirname(fileURLToPath(import.meta.url)), ".env");
+if (existsSync(envPath)) {
+  for (const line of readFileSync(envPath, "utf8").split(/\r?\n/)) {
+    const m = line.match(/^([^#=]+)=(.*)$/);
+    if (m) process.env[m[1].trim()] = m[2].trim();
+  }
+}
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 

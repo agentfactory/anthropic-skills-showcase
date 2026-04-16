@@ -9,77 +9,84 @@
 Every episode follows this exact structure:
 
 ### [0:00-0:30] COLD OPEN (30 sec)
-Hook the viewer with the end result. Show the finished output of the use case. Voiceover: "What if you could [result] in under 5 minutes? Let me show you."
+Hook the viewer with the end result. Show the finished output of the use case. Be specific — exact document names, real numbers, real company headers. The viewer should immediately understand the before/after.
 
 ### [0:30-1:30] INTRO + CONTEXT (60 sec)
-Branded intro animation (5 sec). Introduce the skill by name, what it does, and who it's for. Show the Smithery.ai skill page briefly. Explain the "before" state — what this used to take manually.
+Branded intro animation (5 sec). Identify the series and the audience it's for. Introduce the skill by name, what it does, and who it's for. Show the Smithery.ai skill page briefly. Quantify the "before" cost — time lost, money spent, errors made.
 
 ### [1:30-3:30] SKILL DEEP DIVE (2 min)
-How to install it (`npx @smithery/cli@latest skill add anthropics/[skill-name]`). Walk through the SKILL.md — what's in it, how it works. Show the configuration options and triggers. Screen recording of the skill page.
+How to install it (`npx @smithery/cli@latest skill add anthropics/[skill-name]`). Walk through the SKILL.md — what's in it, how it works. Show the triggers. Name the 2-3 capabilities most relevant to this episode's audience. Keep it tight — the demo is where the value lands.
 
 ### [3:30-9:30] LIVE USE CASE DEMO (6 min)
-This is the core. One concrete, relatable use case. Show the entire workflow from start to finish: setting up the input, invoking the skill, watching it work, reviewing the output. Real-time screen recording with voiceover narration. Pause at key moments to explain what's happening. Show any errors/iterations — keep it authentic.
+The core. One concrete, relatable use case for this episode's specific audience. Real input data — messy, abbreviated, the way this audience actually works. Show the full workflow: input, prompt, process, output, one iteration. Narrate the translation — what the skill understood and what it produced. Show any errors/iterations; keep it authentic.
 
 ### [9:30-11:00] RESULTS + VARIATIONS (90 sec)
-Show the final output. Suggest 2-3 other use cases this skill is perfect for. Show quick clips of alternative outputs if available.
+Show the final output. Name 2-3 other documents or tasks this audience could produce with the same skill. Quick clips of alternative outputs where available.
 
 ### [11:00-12:00] WRAP-UP + CTA (60 sec)
-Recap: what the skill does, the use case shown, key takeaway. CTA: Subscribe, link to the skill in description, link to the GitHub repo. Tease the next episode. End card.
+Honest summary: what the skill does, what the use case proved, what it doesn't do. Install command. Link in description. Tease the next episode. End card.
 
 ---
 
-## 2. Brand Identity
+## 2. Series Logic — Audience First
 
-### Colors (Anthropic Brand Palette)
-- **Dark:** #141413 — Primary text and dark backgrounds
-- **Light:** #faf9f5 — Light backgrounds and text on dark
-- **Mid Gray:** #b0aea5 — Secondary elements
-- **Light Gray:** #e8e6dc — Subtle backgrounds
-- **Orange (Primary Accent):** #d97757
-- **Blue (Secondary Accent):** #6a9bcc
-- **Green (Tertiary Accent):** #788c5d
+> **Core rule: Each series targets one professional audience. The same skill appears in multiple series — what changes is the use case, the language, and the business context.**
 
-### Typography
-- **Headings:** Poppins (with Arial fallback)
-- **Body Text:** Lora (with Georgia fallback)
+A Series B episode on `docx` teaches an office worker how to turn a project brief into a client report. A Series C episode on `docx` teaches a roofer how to turn inspection shorthand into a signed estimate. Same skill. Different audience. Different value proposition. Both are equally valid episodes.
 
-### Tone
-Professional but approachable, educational, enthusiastic without being hype-y. Think "senior engineer teaching a friend." Never condescending, never rushed. Let the skill speak for itself.
+This means:
+- Never organize episodes by "which skills haven't been covered yet"
+- Always organize by "which use case resonates with this series' audience"
+- Research the audience's actual workflow before writing the use case
 
 ---
 
-## 3. Episode Categories (11 Series, 95 Episodes)
+## 3. Episode Series (11 Series, 95+ Episodes)
 
-| Series | Theme | Episode Count | Target Audience |
-|--------|-------|---------------|-----------------|
-| A | Design & Creative | 8 | Designers, marketers, content creators |
-| B | Documents & Files | 6 | Everyone — universal office skills |
-| C | Data & Analytics | 8 | Data analysts, scientists, business analysts |
-| D | Sales & Marketing | 12 | Sales reps, marketing teams, growth teams |
-| E | Finance & Accounting | 8 | CFOs, controllers, accounting teams |
-| F | Legal & Compliance | 6 | Legal teams, compliance officers |
-| G | Customer Support | 6 | Support teams, CS managers |
-| H | Product Management | 5 | Product managers, product leads |
-| I | Developer Tools | 23 | Developers, Claude Code users |
-| J | Science & Healthcare | 7 | Researchers, biotech, clinical teams |
-| K | Productivity & Knowledge | 6 | Knowledge workers, everyone |
+| Series | Folder | Audience | Primary Skills Featured |
+|--------|--------|----------|------------------------|
+| A | `01-design-creative/` | Designers, marketers, content creators | skill-creator, canvas-design, frontend-design, pptx, theme-factory, brand-guidelines, brand-voice, algorithmic-art |
+| B | `02-office-productivity/` | Office teams, knowledge workers | docx, xlsx, pdf, pptx, internal-comms, doc-coauthoring, daily-briefing, knowledge-synthesis |
+| C | `03-service-trades/` | Contractors, service businesses, SMB trades | docx, xlsx, internal-comms, response-drafting, brand-voice, daily-briefing |
+| D | `04-sales-growth/` | Sales reps, marketers, growth teams | competitive-analysis, draft-outreach, campaign-planning, call-prep, account-research, performance-analytics |
+| E | `05-finance-accounting/` | CFOs, controllers, accountants | creating-financial-models, analyzing-financial-statements, financial-statements, variance-analysis, xlsx, pdf |
+| F | `06-legal-compliance/` | Lawyers, paralegals, compliance officers | contract-review, legal-risk-assessment, nda-triage, compliance, pdf, docx |
+| G | `07-customer-support/` | Support teams, CS managers | response-drafting, ticket-triage, escalation, knowledge-management, stakeholder-comms |
+| H | `08-product-management/` | Product managers, product leads | feature-spec, roadmap-management, user-research-synthesis, metrics-tracking, interactive-dashboard-builder |
+| I | `09-developer-tools/` | Developers, Claude Code users | skill-creator, skill-development, agent-development, mcp-builder, webapp-testing, and 18 more |
+| J | `10-science-healthcare/` | Researchers, biotech, clinical teams | statistical-analysis, nextflow-development, scientific-problem-selection, fhir-developer-skill |
+| K | `11-general-productivity/` | Knowledge workers — general skills | skill-creator, daily-briefing, task-management, memory-management, knowledge-synthesis |
 
 ---
 
-## 4. Production Workflow
+## 4. Script Quality Standard
+
+The benchmark episode is **Series C ep01** (`03-service-trades/ep01-docx-roofing-quote/script.md`). Every episode should match it on four dimensions:
+
+| Dimension | Below standard | At standard |
+|-----------|---------------|-------------|
+| Screen cues | "Document opens" | "Ridge Pro Roofing LLC, license ROC-291847, quote QT-2026-0847, 30-day expiration" |
+| Business impact | Implicit | Quantified: "Three quotes a week, 45 min each — that's $5,000/year in formatting time" |
+| Audience language | Generic professional | Vertical-specific: "3-tab over architectural, 2-layer full T/O, pipe boots, step and counter flash" |
+| Demo narrative | Feature-list walkthrough | Problem → cost → skill → transformation → output that lands |
+
+---
+
+## 5. Production Workflow
 
 ### Pre-Production (Per Episode)
-1. Review the skill's SKILL.md on Smithery.ai
-2. Install the skill locally and experiment with it
-3. Design one concrete use case that demonstrates the skill's value
-4. Write the script using `script-template.md`
-5. Prepare input materials for the demo (sample data, documents, etc.)
-6. Create the `metadata.yml` with title, description, tags, timestamps
+1. Identify the target audience for this series — research their actual workflow
+2. Review the skill's SKILL.md on Smithery.ai
+3. Design one use case that would resonate specifically with this audience (messy real-world input, tangible output)
+4. Quantify the business impact: time, money, errors, competitive disadvantage
+5. Write the script using `script-template.md`
+6. Prepare input materials (real, messy, industry-appropriate — not a cleaned-up example)
+7. Create the `metadata.yml`
 
 ### Production
-1. Record screen capture at native resolution (dark mode)
+1. Record screen capture at native resolution (dark mode, 16pt+ font, clean desktop)
 2. Record voiceover narration following the script
-3. Capture any B-roll footage needed
+3. Capture B-roll footage specific to this audience's environment
 4. Run the demo end-to-end, capturing the full workflow
 
 ### Post-Production
@@ -94,40 +101,22 @@ Professional but approachable, educational, enthusiastic without being hype-y. T
 
 ---
 
-## 5. Recommended First 10 Episodes
-
-These are selected for maximum audience appeal, visual impact, and install count:
-
-| Priority | Skill | Installs | Use Case Idea |
-|----------|-------|----------|---------------|
-| 1 | skill-creator | 1,113 | Create a custom "meeting notes formatter" skill from scratch |
-| 2 | pdf | 895 | Merge 5 quarterly reports, add watermarks, extract tables |
-| 3 | creating-financial-models | 762 | Build a DCF model for a hypothetical SaaS startup |
-| 4 | pptx | 718 | Turn a product brief into a 10-slide investor deck |
-| 5 | xlsx | 664 | Clean a messy CSV dataset, add formulas, create charts |
-| 6 | frontend-design | 488 | Build a SaaS landing page from a single prompt |
-| 7 | competitive-analysis | 455 | Analyze 3 competitors in the project management space |
-| 8 | canvas-design | 443 | Create a museum-quality poster for a tech conference |
-| 9 | interactive-dashboard-builder | 419 | Build a sales performance dashboard from CSV data |
-| 10 | theme-factory | 406 | Style a plain HTML report with 3 different themes |
-
----
-
 ## 6. File Deliverables Per Episode
 
-Each episode folder must contain:
-
 ```
-ep##-skill-name/
-├── README.md           # Episode overview and status
-├── script.md           # Full narrated script with timestamps
-├── metadata.yml        # YouTube metadata (title, description, tags, chapters)
+ep##-[skill]-[use-case]/
+├── README.md               # Episode overview and status
+├── script.md               # Full narrated script with timestamps
+├── metadata.yml            # YouTube metadata (title, description, tags, chapters)
 ├── use-case/
-│   ├── walkthrough.md  # Step-by-step demo instructions
-│   ├── input/          # Starting materials for the demo
-│   └── output/         # Final results from the demo
-└── assets/
-    └── thumbnail.md    # Thumbnail concept description
+│   ├── walkthrough.md      # Reproducible step-by-step demo instructions
+│   ├── input/              # Starting materials (messy, real-world)
+│   └── output/             # Final results
+├── assets/
+│   └── thumbnail.md        # Thumbnail concept description
+├── vo/                     # ElevenLabs voiceover pipeline (COPY from previous ep)
+└── resolve/
+    └── timeline-map.md     # DaVinci Resolve shot list and track layout
 ```
 
 ---
@@ -161,5 +150,26 @@ tags:
   - ai skills
   - smithery
   - [skill-specific tags]
+  - [audience-specific tags]
 category: Science & Technology
 ```
+
+---
+
+## 8. Brand Identity
+
+### Colors (Anthropic Brand Palette)
+- **Dark:** #141413 — Primary text and dark backgrounds
+- **Light:** #faf9f5 — Light backgrounds and text on dark
+- **Mid Gray:** #b0aea5 — Secondary elements
+- **Light Gray:** #e8e6dc — Subtle backgrounds
+- **Orange (Primary Accent):** #d97757
+- **Blue (Secondary Accent):** #6a9bcc
+- **Green (Tertiary Accent):** #788c5d
+
+### Typography
+- **Headings:** Poppins (with Arial fallback)
+- **Body Text:** Lora (with Georgia fallback)
+
+### Tone
+Professional but approachable, educational, specific. Think "senior engineer teaching a peer in that industry." Never condescending, never rushed. Speak the audience's language — use their jargon, reference their real problems. Let the skill speak for itself.
