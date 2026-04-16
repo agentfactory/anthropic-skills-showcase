@@ -1,0 +1,72 @@
+title: "Anthropic Skills: pptx — Case Study to Sales Presentation | Ep B04"
+
+description: |
+  In this episode, we demo the pptx Anthropic Skill from Smithery.ai to turn a customer case study (plain text) into a polished 8-slide sales presentation — complete with a metrics bar chart, testimonial quote slide, before/after comparison, and pricing/ROI slide. Then we generate a dark theme version in one more prompt.
+
+  This is the workflow account executives and customer success managers deal with constantly: a case study exists somewhere as a document, but a prospect needs it in slides before a meeting. The skill builds a fully editable .pptx from a 400-word text file, with chart objects, proper slide layouts, and theme switching on demand.
+
+  TIMESTAMPS:
+  0:00 — Cold Open
+  0:30 — What is anthropics/pptx?
+  1:30 — Installation & Skill Deep Dive
+  3:30 — Live Demo: Case Study to Sales Deck
+  9:30 — Results & Variations
+  11:00 — Wrap-Up & What's Next
+
+  LINKS:
+  Skill: https://smithery.ai/skills/anthropics/pptx
+  Install: npx @smithery/cli@latest skill add anthropics/pptx
+  GitHub: https://github.com/agentfactory/anthropic-skills-showcase
+
+  SERIES B — Documents & Files:
+  B01: docx — Professional document creation
+  B02: xlsx — Spreadsheet generation and analysis
+  B03: pdf — Client onboarding package assembly
+  B04: pptx — Case study to sales presentation (this episode)
+
+tags:
+  - anthropic
+  - claude
+  - claude code
+  - ai skills
+  - smithery
+  - pptx
+  - powerpoint
+  - sales deck
+  - case study
+  - presentation automation
+  - sales enablement
+  - customer success
+  - ai presentation builder
+  - sales tools
+  - account executive tools
+
+category: Science & Technology
+
+chapters:
+  - time: "0:00"
+    title: "Cold Open"
+  - time: "0:30"
+    title: "What is anthropics/pptx?"
+  - time: "1:30"
+    title: "Installation & Skill Deep Dive"
+  - time: "3:30"
+    title: "Live Demo — Case Study Source Review"
+  - time: "4:30"
+    title: "Writing the Build Prompt"
+  - time: "5:30"
+    title: "Watching the Presentation Build"
+  - time: "7:00"
+    title: "Reviewing the Light Theme Output"
+  - time: "8:00"
+    title: "Dark Theme Iteration"
+  - time: "9:00"
+    title: "Reviewing the Dark Theme Output"
+  - time: "9:30"
+    title: "Results & Variations"
+  - time: "11:00"
+    title: "Wrap-Up & What's Next"
+
+thumbnail: assets/thumbnail.md
+language: en
+visibility: public

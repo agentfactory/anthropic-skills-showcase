@@ -1,0 +1,72 @@
+title: "Anthropic Skills: pdf — Build a Client Onboarding Package | Ep B03"
+
+description: |
+  In this episode, we demo the pdf Anthropic Skill from Smithery.ai to build a complete client onboarding package — assembling a contract, statement of work, and welcome letter into a single professional document with a generated cover page, PDF bookmarks, sequential page numbering, and a DRAFT watermark. Then we remove the watermark when approved.
+
+  This is document assembly as a repeatable workflow — the kind agencies and consultants run every time a new client signs. Cover page generation from metadata, nested bookmarks for navigation, and a clean draft-to-final iteration loop.
+
+  TIMESTAMPS:
+  0:00 — Cold Open
+  0:30 — What is anthropics/pdf?
+  1:30 — Installation & Skill Deep Dive
+  3:30 — Live Demo: Onboarding Package Assembly
+  9:30 — Results & Variations
+  11:00 — Wrap-Up & What's Next
+
+  LINKS:
+  Skill: https://smithery.ai/skills/anthropics/pdf
+  Install: npx @smithery/cli@latest skill add anthropics/pdf
+  GitHub: https://github.com/agentfactory/anthropic-skills-showcase
+
+  SERIES B — Documents & Files:
+  B01: docx — Professional document creation
+  B02: xlsx — Spreadsheet generation and analysis
+  B03: pdf — Client onboarding package assembly (this episode)
+  B04: pptx — Case study to sales presentation
+
+tags:
+  - anthropic
+  - claude
+  - claude code
+  - ai skills
+  - smithery
+  - pdf
+  - document automation
+  - client onboarding
+  - pdf merge
+  - watermark
+  - pdf bookmarks
+  - agency tools
+  - document assembly
+  - consulting tools
+  - operations automation
+
+category: Science & Technology
+
+chapters:
+  - time: "0:00"
+    title: "Cold Open"
+  - time: "0:30"
+    title: "What is anthropics/pdf?"
+  - time: "1:30"
+    title: "Installation & Skill Deep Dive"
+  - time: "3:30"
+    title: "Live Demo — Onboarding Package Assembly"
+  - time: "4:30"
+    title: "Writing the Assembly Prompt"
+  - time: "5:30"
+    title: "Watching the Assembly"
+  - time: "7:00"
+    title: "The Approval Iteration"
+  - time: "8:00"
+    title: "Removing the Watermark"
+  - time: "9:00"
+    title: "Reviewing the Final Output"
+  - time: "9:30"
+    title: "Results & Variations"
+  - time: "11:00"
+    title: "Wrap-Up & What's Next"
+
+thumbnail: assets/thumbnail.md
+language: en
+visibility: public

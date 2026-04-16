@@ -1,0 +1,60 @@
+title: "Anthropic Skills: docx — From Markdown Mess to Polished Word Report | Ep B01"
+description: |
+  In this episode, we demo the docx Anthropic Skill from Smithery.ai.
+  It turns raw Markdown content into a professional Word document — with heading styles,
+  an auto-generated table of contents, formatted tables, executive summary call-outs,
+  and a footer — in a single prompt.
+
+  We walk through: converting a project kickoff brief from a plain Markdown dump into
+  a client-ready .docx report with full document structure, a styled deliverables table,
+  and branded heading colors added in a follow-up iteration.
+
+  TIMESTAMPS:
+  0:00 — Cold Open
+  0:30 — What is docx?
+  1:30 — Installation & Deep Dive
+  3:30 — Live Demo: Project Kickoff Brief
+  9:30 — Results & Other Use Cases
+  11:00 — Wrap-Up
+
+  LINKS:
+  Skill: https://smithery.ai/skills/anthropics/docx
+  Install: npx @smithery/cli@latest skill add anthropics/docx
+  GitHub: https://github.com/agentfactory/anthropic-skills-showcase
+
+tags:
+  - anthropic
+  - claude
+  - claude code
+  - ai skills
+  - smithery
+  - docx
+  - word document
+  - word automation
+  - document generation
+  - ai document formatting
+  - project management
+  - business documents
+  - word report
+  - markdown to word
+  - python-docx
+
+category: Science & Technology
+
+chapters:
+  - time: "0:00"
+    title: "Cold Open"
+  - time: "0:30"
+    title: "What is docx?"
+  - time: "1:30"
+    title: "Installation & Deep Dive"
+  - time: "3:30"
+    title: "Live Demo — Project Kickoff Brief"
+  - time: "9:30"
+    title: "Results & Other Use Cases"
+  - time: "11:00"
+    title: "Wrap-Up & What's Next"
+
+thumbnail: assets/thumbnail.md
+language: en
+visibility: public
