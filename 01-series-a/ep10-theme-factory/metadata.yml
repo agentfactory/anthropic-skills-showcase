@@ -1,0 +1,75 @@
+title: "3 CSS Themes in 3 Minutes — No CSS Written | theme-factory Anthropic Skill | Ep 10"
+
+description: |
+  In this episode, we demo the theme-factory Anthropic Skill from Smithery.ai —
+  the skill that generates production-quality CSS themes from plain English descriptions.
+
+  We take a completely unstyled HTML annual report for fictional company Meridian Analytics
+  and apply three radically different CSS themes in sequence:
+  1. Corporate Minimal — restrained, navy-and-white, Goldman Sachs energy
+  2. Bold Editorial — New York Times feature, large display type, orange accents
+  3. Dark Tech — Stripe/Vercel dark mode, monospace data, terminal-native feel
+
+  Each theme takes under 5 minutes. No manual CSS writing. No guessing at type scales
+  or hex codes. Same HTML file, three completely different design identities.
+
+  TIMESTAMPS:
+  0:00 — Cold Open
+  0:30 — What is theme-factory?
+  1:30 — Installation & Deep Dive
+  3:30 — Live Demo: Three themes on an annual report
+  9:30 — Results & Other Use Cases
+  11:00 — Wrap-Up
+
+  LINKS:
+  Skill: https://smithery.ai/skills/anthropics/theme-factory
+  Install: npx @smithery/cli@latest skill add anthropics/theme-factory
+  GitHub (this series): https://github.com/agentfactory/anthropic-skills-showcase
+  Episode 10 folder: https://github.com/agentfactory/anthropic-skills-showcase/tree/main/01-series-a/ep10-theme-factory
+
+tags:
+  - anthropic
+  - claude
+  - claude code
+  - ai skills
+  - smithery
+  - theme-factory
+  - css generator
+  - ai css
+  - frontend development
+  - design automation
+  - css themes
+  - html styling
+  - design variants
+  - ai design tools
+  - frontend ai
+
+category: Science & Technology
+
+chapters:
+  - time: "0:00"
+    title: "Cold Open"
+  - time: "0:30"
+    title: "What is theme-factory?"
+  - time: "1:30"
+    title: "Installation & Deep Dive"
+  - time: "3:30"
+    title: "Live Demo — Three Themes on an Annual Report"
+  - time: "4:30"
+    title: "Theme 1: Corporate Minimal"
+  - time: "5:30"
+    title: "Theme 2: Bold Editorial"
+  - time: "6:30"
+    title: "Theme 3: Dark Tech"
+  - time: "7:30"
+    title: "The Three-Way Comparison"
+  - time: "8:30"
+    title: "Iteration: Refining the Accent Color"
+  - time: "9:30"
+    title: "Results & Other Use Cases"
+  - time: "11:00"
+    title: "Wrap-Up & What's Next"
+
+thumbnail: assets/thumbnail.md
+language: en
+visibility: public

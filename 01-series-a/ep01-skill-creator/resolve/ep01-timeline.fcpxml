@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE fcpxml>
+<fcpxml version="1.9">
+  <resources>
+    <format id="r1" name="FFVideoFormat1080p30" frameDuration="1/30s" width="1920" height="1080"/>
+
+    <!-- Video assets (placeholders — relink in Resolve when media exists) -->
+    <asset id="a_cold"      name="cold-open"           hasVideo="1" hasAudio="1" format="r1" duration="900/30s"   start="0s" src="file://../raw/screen-rec.mp4"/>
+    <asset id="a_intro"     name="intro.mov"           hasVideo="1" hasAudio="0" format="r1" duration="150/30s"   start="0s" src="file://../remotion/out/intro.mov"/>
+    <asset id="a_broll"     name="b-roll-smithery"     hasVideo="1" hasAudio="0" format="r1" duration="1650/30s"  start="0s" src="file://../raw/b-roll.mp4"/>
+    <asset id="a_lt"        name="lowerthird.mov"      hasVideo="1" hasAudio="0" format="r1" duration="120/30s"   start="0s" src="file://../remotion/out/lowerthird.mov"/>
+    <asset id="a_sect"      name="section-transition"  hasVideo="1" hasAudio="0" format="r1" duration="30/30s"    start="0s" src="file://../remotion/out/section-transition.mov"/>
+    <asset id="a_term"      name="terminal-vscode"     hasVideo="1" hasAudio="0" format="r1" duration="3570/30s"  start="0s" src="file://../raw/terminal.mp4"/>
+    <asset id="a_kp1"       name="keystroke-install"   hasVideo="1" hasAudio="0" format="r1" duration="90/30s"    start="0s" src="file://../remotion/out/keystroke-install.mov"/>
+    <asset id="a_screen"    name="screen-rec.mp4"      hasVideo="1" hasAudio="1" format="r1" duration="10770/30s" start="0s" src="file://../raw/screen-rec.mp4"/>
+    <asset id="a_kp2"       name="keystroke-commands"  hasVideo="1" hasAudio="0" format="r1" duration="90/30s"    start="0s" src="file://../remotion/out/keystroke-commands.mov"/>
+    <asset id="a_ba"        name="before-after"        hasVideo="1" hasAudio="0" format="r1" duration="2670/30s"  start="0s" src="file://../raw/before-after.mp4"/>
+    <asset id="a_end"       name="endcard.mov"         hasVideo="1" hasAudio="0" format="r1" duration="1800/30s"  start="0s" src="file://../remotion/out/endcard.mov"/>
+
+    <!-- Audio assets (VO + music) -->
+    <asset id="v_01" name="01-cold-open.mp3" hasVideo="0" hasAudio="1" format="r1" duration="900/30s"   start="0s" src="file://../vo/01-cold-open.mp3"/>
+    <asset id="v_02" name="02-intro.mp3"     hasVideo="0" hasAudio="1" format="r1" duration="1650/30s"  start="0s" src="file://../vo/02-intro.mp3"/>
+    <asset id="v_03" name="03-deep-dive.mp3" hasVideo="0" hasAudio="1" format="r1" duration="3570/30s"  start="0s" src="file://../vo/03-deep-dive.mp3"/>
+    <asset id="v_04" name="04-live-demo.mp3" hasVideo="0" hasAudio="1" format="r1" duration="10770/30s" start="0s" src="file://../vo/04-live-demo.mp3"/>
+    <asset id="v_05" name="05-results.mp3"   hasVideo="0" hasAudio="1" format="r1" duration="2670/30s"  start="0s" src="file://../vo/05-results.mp3"/>
+    <asset id="v_06" name="06-wrap-up.mp3"   hasVideo="0" hasAudio="1" format="r1" duration="1800/30s"  start="0s" src="file://../vo/06-wrap-up.mp3"/>
+    <asset id="m_bed" name="music-bed"       hasVideo="0" hasAudio="1" format="r1" duration="21600/30s" start="0s" src="file://../music/bed.mp3"/>
+  </resources>
+
+  <library>
+    <event name="Ep01 — Skill Creator">
+      <project name="ep01-skill-creator">
+        <sequence format="r1" duration="21600/30s" tcStart="0s" tcFormat="NDF" audioLayout="stereo" audioRate="48k">
+          <spine>
+
+            <!-- 00:00–00:30 Cold-open (V1) + VO01 (A1) -->
+            <asset-clip name="Cold-open" ref="a_cold" offset="0s" duration="900/30s" start="0s">
+              <asset-clip name="01-cold-open" ref="v_01" lane="-1" offset="0s" duration="900/30s" start="0s" audioRole="dialogue"/>
+              <asset-clip name="music-bed"    ref="m_bed" lane="-2" offset="0s" duration="21600/30s" start="0s" audioRole="music"/>
+            </asset-clip>
+
+            <!-- 00:30–00:35 Intro on V3 over gap -->
+            <gap name="gap-intro" offset="900/30s" duration="150/30s" start="0s">
+              <asset-clip name="intro.mov" ref="a_intro" lane="2" offset="0s" duration="150/30s" start="0s"/>
+            </gap>
+
+            <!-- 00:35–01:30 B-roll (V1) + VO02, LowerThird on V2 at 00:45 for 4s -->
+            <asset-clip name="B-roll Smithery" ref="a_broll" offset="1050/30s" duration="1650/30s" start="0s">
+              <asset-clip name="02-intro"   ref="v_02" lane="-1" offset="0s"   duration="1650/30s" start="0s" audioRole="dialogue"/>
+              <asset-clip name="LowerThird" ref="a_lt" lane="1"  offset="300/30s" duration="120/30s" start="0s"/>
+            </asset-clip>
+
+            <!-- 01:30–01:31 Section transition on V2 over gap -->
+            <gap name="gap-sect1" offset="2700/30s" duration="30/30s" start="0s">
+              <asset-clip name="section-transition" ref="a_sect" lane="1" offset="0s" duration="30/30s" start="0s"/>
+            </gap>
+
+            <!-- 01:31–03:30 Terminal/VS Code (V1) + VO03, Keystroke pill lane 1 -->
+            <asset-clip name="Terminal + VS Code" ref="a_term" offset="2730/30s" duration="3570/30s" start="0s">
+              <asset-clip name="03-deep-dive"       ref="v_03" lane="-1" offset="0s"   duration="3570/30s" start="0s" audioRole="dialogue"/>
+              <asset-clip name="keystroke-install"  ref="a_kp1" lane="1" offset="300/30s" duration="90/30s" start="0s"/>
+            </asset-clip>
+
+            <!-- 03:30–03:31 Section transition -->
+            <gap name="gap-sect2" offset="6300/30s" duration="30/30s" start="0s">
+              <asset-clip name="section-transition" ref="a_sect" lane="1" offset="0s" duration="30/30s" start="0s"/>
+            </gap>
+
+            <!-- 03:31–09:30 Screen rec (V1, with original audio routed to A3) + VO04 -->
+            <asset-clip name="screen-rec" ref="a_screen" offset="6330/30s" duration="10770/30s" start="0s">
+              <asset-clip name="04-live-demo"        ref="v_04" lane="-1" offset="0s" duration="10770/30s" start="0s" audioRole="dialogue"/>
+              <asset-clip name="keystroke-commands"  ref="a_kp2" lane="1" offset="600/30s" duration="90/30s" start="0s"/>
+            </asset-clip>
+
+            <!-- 09:30–09:31 Section transition -->
+            <gap name="gap-sect3" offset="17100/30s" duration="30/30s" start="0s">
+              <asset-clip name="section-transition" ref="a_sect" lane="1" offset="0s" duration="30/30s" start="0s"/>
+            </gap>
+
+            <!-- 09:31–11:00 Before/after (V1) + VO05 -->
+            <asset-clip name="Before-After" ref="a_ba" offset="17130/30s" duration="2670/30s" start="0s">
+              <asset-clip name="05-results" ref="v_05" lane="-1" offset="0s" duration="2670/30s" start="0s" audioRole="dialogue"/>
+            </asset-clip>
+
+            <!-- 11:00–11:10 EndCard on V3 over gap -->
+            <gap name="gap-endcard" offset="19800/30s" duration="300/30s" start="0s">
+              <asset-clip name="endcard.mov" ref="a_end" lane="2" offset="0s" duration="300/30s" start="0s"/>
+            </gap>
+
+            <!-- 11:10–12:00 EndCard held on V1 + VO06 -->
+            <asset-clip name="EndCard-held" ref="a_end" offset="20100/30s" duration="1500/30s" start="300/30s">
+              <asset-clip name="06-wrap-up" ref="v_06" lane="-1" offset="0s" duration="1500/30s" start="0s" audioRole="dialogue"/>
+            </asset-clip>
+
+          </spine>
+
+          <!-- Section markers for quick navigation -->
+          <!-- Note: markers live on clips; these are sequence-level via spine gap below if needed -->
+        </sequence>
+      </project>
+    </event>
+  </library>
+</fcpxml>

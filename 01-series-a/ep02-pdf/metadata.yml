@@ -1,0 +1,60 @@
+title: "Anthropic Skills: pdf — Merge, Watermark & Extract Tables in Minutes | Ep 02"
+
+description: |
+  In this episode, we demo the pdf Anthropic Skill from Smithery.ai —
+  the universal document skill that handles merging, watermarking, and
+  table extraction without any additional software or licenses.
+
+  We take 5 quarterly PDF reports from a mock SaaS company, merge them
+  into one structured master document, stamp every page with a CONFIDENTIAL
+  watermark, and extract all 23 tables as clean, sourced markdown — in under
+  6 minutes.
+
+  TIMESTAMPS:
+  0:00 — Cold Open
+  0:30 — What is the pdf skill?
+  1:30 — Installation & Deep Dive
+  3:30 — Live Demo: Merge, Watermark & Extract
+  9:30 — Results & Other Use Cases
+  11:00 — Wrap-Up
+
+  LINKS:
+  Skill: https://smithery.ai/skills/anthropics/pdf
+  Install: npx @smithery/cli@latest skill add anthropics/pdf
+  GitHub (this series): https://github.com/agentfactory/anthropic-skills-showcase
+  Episode 02 folder: https://github.com/agentfactory/anthropic-skills-showcase/tree/main/01-series-a/ep02-pdf
+
+tags:
+  - anthropic
+  - claude
+  - claude code
+  - ai skills
+  - smithery
+  - pdf skill
+  - pdf merge
+  - pdf watermark
+  - extract tables from pdf
+  - ai document processing
+  - pdf automation
+  - ai workflows
+  - claude skills tutorial
+
+category: Science & Technology
+
+chapters:
+  - time: "0:00"
+    title: "Cold Open"
+  - time: "0:30"
+    title: "What is the pdf skill?"
+  - time: "1:30"
+    title: "Installation & Deep Dive"
+  - time: "3:30"
+    title: "Live Demo — Merge, Watermark & Extract"
+  - time: "9:30"
+    title: "Results & Other Use Cases"
+  - time: "11:00"
+    title: "Wrap-Up & What's Next"
+
+thumbnail: assets/thumbnail.md
+language: en
+visibility: public

@@ -1,0 +1,27 @@
+{
+  "name": "ep01-remotion",
+  "version": "1.0.0",
+  "description": "Motion graphics for Anthropic Skills Showcase Ep 01 — skill-creator",
+  "private": true,
+  "scripts": {
+    "dev": "remotion studio",
+    "render:intro": "remotion render Intro out/intro.mov --codec=prores --prores-profile=4444",
+    "render:endcard": "remotion render EndCard out/endcard.mov --codec=prores --prores-profile=4444",
+    "render:lowerthird": "remotion render LowerThird out/lowerthird.mov --codec=prores --prores-profile=4444",
+    "render:transition": "remotion render SectionTransition out/section-transition.mov --codec=prores --prores-profile=4444",
+    "render:keystroke": "remotion render KeystrokePill out/keystroke.mov --codec=prores --prores-profile=4444",
+    "render:all": "bash render.sh"
+  },
+  "dependencies": {
+    "@remotion/bundler": "^4.0.0",
+    "@remotion/cli": "^4.0.0",
+    "@remotion/google-fonts": "^4.0.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "remotion": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.0",
+    "typescript": "^5.4.0"
+  }
+}
