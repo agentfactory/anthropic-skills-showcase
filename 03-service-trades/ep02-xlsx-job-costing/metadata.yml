@@ -1,0 +1,57 @@
+title: "Anthropic Skills: xlsx — Know If April Was Actually a Good Month | Series C Ep 02"
+
+description: |
+  In this episode, we demo the xlsx Anthropic Skill from Smithery.ai.
+  The skill turns any structured list — job notes, expense logs, project data — into
+  a formatted Excel workbook with calculated columns, conditional formatting, and charts.
+
+  We walk through a complete use case: a landscaping contractor's April job notes
+  (15 jobs, typed on a phone between sites) become a 3-sheet Excel workbook with
+  weekly revenue tracking, profit margins, and an outstanding balance tracker with aging.
+
+  TIMESTAMPS:
+  0:00 — Cold Open: finished April job tracker in Excel
+  0:30 — Intro: the real cost of not tracking job costs
+  1:30 — Install + Skill Deep Dive (tables, formulas, conditional formatting)
+  3:30 — Live Demo: April job notes → 3-sheet Excel workbook
+  9:30 — Results: parts tracker, crew time sheet, annual P&L
+  11:00 — Wrap-Up + install command
+
+  LINKS:
+  Skill: https://smithery.ai/skills/anthropics/xlsx
+  Install: npx @smithery/cli@latest skill add anthropics/xlsx
+  GitHub: https://github.com/agentfactory/anthropic-skills-showcase
+
+tags:
+  - anthropic
+  - claude
+  - anthropic skills
+  - smithery
+  - xlsx
+  - excel
+  - spreadsheet
+  - job costing
+  - contractor tools
+  - small business
+  - landscaping business
+  - service business
+  - bookkeeping
+  - profit tracking
+  - trades business
+  - ai productivity
+  - claude code
+  - workflow automation
+
+category: Science & Technology
+
+chapters:
+  - "0:00 Cold Open"
+  - "0:30 Intro — The Cost of Not Tracking"
+  - "1:30 Install + Skill Deep Dive"
+  - "3:30 Live Demo: April Job Tracker"
+  - "7:00 Reviewing the Output"
+  - "9:00 Iteration: Days Outstanding Column"
+  - "9:30 Variations: Parts Tracker, Time Sheet, Annual P&L"
+  - "11:00 Wrap-Up"
+
+thumbnail_text: "From phone notes to full P&L — one prompt"

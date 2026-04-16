@@ -1,8 +1,8 @@
-# Episode C01: docx — Quote Out the Door Before Your Competitor Does
+# Episode 01: docx — Quote Out the Door Before Your Competitor Does
 
-**Series:** C — SMB Operations
+**Series:** Service Trades
 **Skill:** `anthropics/docx`
-**Skill URL:** https://smithery.ai/skills/anthropics/docx
+**Skill URL:** [smithery.ai/skills/anthropics/docx](https://smithery.ai/skills/anthropics/docx)
 **Installs:** 623
 **Duration:** ~12 min
 **Status:** Pre-production
@@ -13,7 +13,7 @@
 
 A roofing contractor finishes an inspection at 2pm. The homeowner has two other quotes coming in. The roofer types his inspection notes into Claude and gets a professional, itemized roofing quote — company header, scope of work table, materials spec, pricing breakdown, warranty terms, signature line — in under 5 minutes. Ready to email.
 
-This episode is the entry point for **Series C: SMB Operations** — a track built for service industry business owners who run on trucks, phones, and hustle, not corporate IT departments.
+This episode is the entry point for the **Service Trades** series — a track built for service industry business owners who run on trucks, phones, and hustle, not corporate IT departments.
 
 ---
 
@@ -57,7 +57,7 @@ The `docx` skill collapses all of that into: inspection notes in → professiona
 
 ## File Structure
 
-```
+```text
 ep01-docx-roofing-quote/
 ├── README.md
 ├── script.md
@@ -71,15 +71,15 @@ ep01-docx-roofing-quote/
 
 ---
 
-## Series C Context
+## Series Context
 
-This is Episode 1 of the SMB Operations track. The series is designed to be consumed in order — each episode builds on the previous one's output. By the end of the series, a service business owner has a complete operational toolkit:
+This is Episode 1 of the Service Trades series. Each episode builds on the previous one — by the end, a service business owner has a complete operational toolkit:
 
 | Ep | Skill | What It Solves |
-|----|-------|----------------|
-| C01 | docx | Quotes, proposals, job cards |
-| C02 | xlsx | Booking tracker + expense sheet |
-| C03 | internal-comms | Customer emails + crew updates |
-| C04 | response-drafting | Responding to leads fast |
-| C05 | brand-voice | Sound professional on every document |
-| C06 | daily-briefing | Start every morning knowing what's ahead |
+| -- | ----- | -------------- |
+| **01** | **docx** | **Quotes, proposals, job cards** |
+| 02 | xlsx | Booking tracker + expense sheet |
+| 03 | internal-comms | Customer emails + crew updates |
+| 04 | response-drafting | Responding to leads fast |
+| 05 | brand-voice | Sound professional on every document |
+| 06 | daily-briefing | Start every morning knowing what's ahead |
