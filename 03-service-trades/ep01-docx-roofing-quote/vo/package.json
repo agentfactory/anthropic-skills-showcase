@@ -1,0 +1,23 @@
+{
+  "name": "ep-c01-vo",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "generate": "npx tsx generate-vo.ts",
+    "generate:cold-open": "npx tsx generate-vo.ts --section cold-open",
+    "generate:intro": "npx tsx generate-vo.ts --section intro",
+    "generate:deep-dive": "npx tsx generate-vo.ts --section deep-dive",
+    "generate:live-demo": "npx tsx generate-vo.ts --section live-demo",
+    "generate:results": "npx tsx generate-vo.ts --section results",
+    "generate:wrap-up": "npx tsx generate-vo.ts --section wrap-up"
+  },
+  "dependencies": {
+    "@elevenlabs/elevenlabs-js": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "tsx": "^4.0.0",
+    "typescript": "^5.0.0"
+  }
+}
